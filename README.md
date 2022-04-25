@@ -19,6 +19,7 @@ The overall goal is to create a next.js sites that consume and display data from
 
 -   [ ] Add [next.js](https://nextjs.org) as a dependency 
 -   [ ] Setup next.js with typescript
+-   [ ] Use [React hooks](https://reactjs.org/docs/hooks-intro.html) for components  
 -   [ ] Setup and configure a recommended linter for the project
 
 ### Create the template foundation
@@ -27,7 +28,7 @@ The overall goal is to create a next.js sites that consume and display data from
 -   [ ] Create the template foundation with a header, content, and footer area
 -   [ ] Use [css-modules](https://github.com/css-modules/css-modules) for styling
 
-#### Header
+#### Header
 
 -   [ ] Integrate the Swiss Red Cross logo into the header
 ```css
@@ -36,11 +37,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 ```
 
-### Content
+#### Content
 
--   [ ] List the ten most popular first names from your municipality of residence
-      -   [ ]  Use the [Swiss Post open data API](https://swisspost.opendatasoft.com/explore/dataset/vornamen_proplz/api/) for first names
--  [ ]  Display a male/female filter for selecting different genders
+-   [ ] List the ten most popular first names (m/f) from your municipality of residence
+      -   [ ] Use the [Swiss Post open data API](https://swisspost.opendatasoft.com/explore/dataset/vornamen_proplz/api/) for first names
+      -   [ ] Display the first name in the listing
+      -   [ ] Sort according to the popularity of the name DESC
+-  [ ] Implement a gender filter
+    -  [ ] The user can choose male or female in the list
+    -  [ ] If the user chooses male, only male names are displayed
+    -  [ ] If the user chooses female, only female names are displayed
 
 #### Footer
 -   [ ] Integrate the following address into the footer
@@ -54,7 +60,14 @@ info@redcross.ch
 IBAN: CH97 0900 0000 3000 9700 0
 ```
 
-### Bonus
+## Deployment
 
--   [ ] Cover your code with unit tests
+-   [ ] Deploy the final project freely to [Vercel](https://vercel.com)
 
+## Bonus
+
+-   [ ] Create one unit test for a component that you've created
+
+## 🦸‍♂️🦸‍♀️ Finish
+
+-   [ ] Invite https://github.com/michaelbirchler to the repository you've created
