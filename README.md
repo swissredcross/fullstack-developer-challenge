@@ -39,11 +39,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 #### Content
 
--   [ ] List the ten most popular first names (m/f) from your municipality of residence
+-   [ ] Fetch the ten most popular first names (m/f) from your municipality of residence
       -   [ ] Use the [Swiss Post open data API](https://swisspost.opendatasoft.com/explore/dataset/vornamen_proplz/api/) for first names
-      -   [ ] Display the first name in the listing
-      -   [ ] Sort according to the popularity of the name DESC
--  [ ] Implement a gender filter
+-   [ ]  Display the data using a tag cloud
+      -   [ ] Integrate a tag cloud module from https://www.npmjs.com 
+      -   [ ] Populare names are bigger
+-  [ ] Implement a gender filter on top of the tag cloud
     -  [ ] The user can choose male or female in the list
     -  [ ] If the user chooses male, only male names are displayed
     -  [ ] If the user chooses female, only female names are displayed
