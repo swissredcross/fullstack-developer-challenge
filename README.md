@@ -39,7 +39,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 #### Content
 
--   [ ] Fetch the ten most popular first names (m/f) from your municipality of residence
+-   [ ] Fetch the ten most popular first names (m/f/*) from your municipality of residence
       -   [ ] Use the [Swiss Post open data API](https://swisspost.opendatasoft.com/explore/dataset/vornamen_proplz/api/) for first names
 -   [ ]  Display the data using a tag cloud
       -   [ ] Integrate a tag cloud module from https://www.npmjs.com 
